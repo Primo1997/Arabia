@@ -7,7 +7,7 @@ html {
 }
 
 body {
-  background: #282828;
+  background: #000000;
   background: linear-gradient(-45deg, #EE7752, #E73C72, #23A6D5, #23D5AB );
   background-size: 400% 400%;
   animation: Gradient 15s ease infinite;
@@ -33,7 +33,7 @@ button, select {
 }
 
 button, input, select, textarea {
-  color: #5A5A5A;
+  color: #000000;
   font: inherit;
   margin: 0;
 }
@@ -47,7 +47,7 @@ textarea {
 }
 
 #container {
-  border: solid 3px #474544;
+  border: solid 3px #000000;
   max-width: 768px;
   margin: 60px auto;
   position: relative;
@@ -59,7 +59,7 @@ form {
 }
 
 h1 {
-  color: #474544;
+  color: #000000;
   font-size: 32px;
   font-weight: 700;
   letter-spacing: 7px;
@@ -68,9 +68,9 @@ h1 {
 }
 
 .underline {
-  border-bottom: solid 2px #474544;
+  border-bottom: solid 2px #000000;
   margin: -0.512em auto;
-  width: 250px;
+  width: 300px;
 }
 
 .icon_wrapper {
@@ -80,7 +80,7 @@ h1 {
 
 .icon {
   display: block;
-  fill: #474544;
+  fill: #000000;
   height: 50px;
   margin: 0 auto;
   width: 50px;
@@ -94,8 +94,8 @@ h1 {
 input[type='text'], [type='email'], select, textarea {
 	background: none;
   border: none;
-	border-bottom: solid 2px #474544;
-	color: #474544;
+	border-bottom: solid 2px #000000;
+	color: #000000;
 	font-size: 1.000em;
   font-weight: 400;
   letter-spacing: 1px;
@@ -148,7 +148,7 @@ textarea {
 
 #form_button {
   background: none;
-  border: solid 2px #474544;
+  border: solid 2px #000000;
   color: #000000;
   cursor: pointer;
   display: inline-block;
@@ -163,7 +163,7 @@ textarea {
 
 #form_button:hover {
   background: #000000;
-  color: #F2F3EB;
+  color: #869701;
 }
 
  screen and (max-width: 768px) {
@@ -225,16 +225,17 @@ div.submit{
 
 }
 
-.media {
-
-  display: flex;
-  justify-content: center;
-
-}
-
 audio{
 
   display: flex;
   margin: 0 auto;
 
 }
+
+.media {
+
+    display: flex;
+    justify-content: center;
+
+}
+
