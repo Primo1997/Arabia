@@ -149,7 +149,7 @@ textarea {
 #form_button {
   background: none;
   border: solid 2px #474544;
-  color: #aa410c;
+  color: #000000;
   cursor: pointer;
   display: inline-block;
   font-family: 'Pocket Monk';
@@ -162,7 +162,7 @@ textarea {
 }
 
 #form_button:hover {
-  background: #474544;
+  background: #000000;
   color: #F2F3EB;
 }
 
