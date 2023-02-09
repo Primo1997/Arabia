@@ -217,3 +217,24 @@ li{
   border-radius: 50%;
   transition: .5s;
 }
+
+div.submit{
+
+  display: flex;
+  justify-content: center;
+
+}
+
+.media {
+
+  display: flex;
+  justify-content: center;
+
+}
+
+audio{
+
+  display: flex;
+  margin: 0 auto;
+
+}
